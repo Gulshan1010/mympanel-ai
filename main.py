@@ -11,6 +11,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 from langchain_core.documents import Document
 
+llm = OllamaLLM(base_url="http://127.0.0.1:11434", model="llama3")
 # ---------------- Page Config ----------------
 st.set_page_config(page_title="GK AI Assistant", page_icon="🤖", layout="wide")
 
